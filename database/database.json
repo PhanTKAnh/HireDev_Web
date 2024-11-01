@@ -1,0 +1,295 @@
+{
+  "companies": [
+    {
+      "id": "1",
+      "companyName": "Công ty ABC",
+      "phone": "0123456789",
+      "email": "contact@abc.com",
+      "password": "password123",
+      "token": "token123",
+      "address": "123 Đường ABC, Quận 1, Thành phố HCM",
+      "workingTime": "8:00 - 17:00",
+      "website": "www.abc.com",
+      "quantityPeople": 50,
+      "description": "Công ty chuyên về công nghệ thông tin.",
+      "detail": "Công ty ABC là một trong những công ty hàng đầu trong lĩnh vực công nghệ thông tin, cung cấp các giải pháp phần mềm và dịch vụ công nghệ."
+    },
+    {
+      "id": "2",
+      "companyName": "Công ty XYZ",
+      "phone": "0987654321",
+      "email": "info@xyz.com",
+      "password": "xyzpassword",
+      "token": "token456",
+      "address": "456 Đường XYZ, Quận 2, Thành phố HCM",
+      "workingTime": "9:00 - 18:00",
+      "website": "www.xyz.com",
+      "quantityPeople": 30,
+      "description": "Công ty chuyên về thương mại điện tử.",
+      "detail": "Công ty XYZ chuyên cung cấp dịch vụ thương mại điện tử và giải pháp bán hàng trực tuyến."
+    }
+  ],
+  "cities": [
+    {
+      "key": "HCM",
+      "value": "Thành phố Hồ Chí Minh",
+      "id": "df24"
+    },
+    {
+      "key": "HN",
+      "value": "Hà Nội",
+      "id": "cc15"
+    },
+    {
+      "key": "DN",
+      "value": "Đà Nẵng",
+      "id": "e003"
+    },
+    {
+      "key": "QT",
+      "value": "Quảng Ninh",
+      "id": "8e9b"
+    },
+    {
+      "key": "BN",
+      "value": "Bắc Ninh",
+      "id": "1a79"
+    }
+  ],
+  "tags": [
+    {
+      "key": "JS",
+      "value": "JavaScript",
+      "id": "5918"
+    },
+    {
+      "key": "JAVA",
+      "value": "Java",
+      "id": "95e4"
+    },
+    {
+      "key": "PY",
+      "value": "Python",
+      "id": "c0d5"
+    },
+    {
+      "key": "PHP",
+      "value": "PHP",
+      "id": "fc89"
+    },
+    {
+      "key": "C_SHARP",
+      "value": "C#",
+      "id": "2a4b"
+    },
+    {
+      "key": "RUBY",
+      "value": "Ruby",
+      "id": "a08a"
+    },
+    {
+      "key": "HTML",
+      "value": "HTML",
+      "id": "9b99"
+    },
+    {
+      "key": "SQL",
+      "value": "SQL",
+      "id": "b857"
+    },
+    {
+      "key": "R",
+      "value": "R",
+      "id": "405d"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "idCompany": 1,
+      "name": "Lập trình viên Frontend",
+      "tags": [
+        "JS",
+        "HTML",
+        "CSS"
+      ],
+      "salary": "15",
+      "description": "Chịu trách nhiệm phát triển giao diện người dùng cho ứng dụng web.",
+      "status": true,
+      "city": [
+        "Thành phố Hồ Chí Minh",
+        " Hà Nội"
+      ],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "31-0 9-2024 11:40:58"
+    },
+    {
+      "id": "2",
+      "idCompany": 2,
+      "name": "Lập trình viên Backend",
+      "tags": [
+        "JAVA",
+        "PHP"
+      ],
+      "salary": "20",
+      "description": "Phát triển và duy trì hệ thống backend cho ứng dụng.",
+      "status": true,
+      "city": [
+        "Đà Nẵng",
+        "Bắc Ninh"
+      ],
+      "createAt": "28-04-2023 10:15:00",
+      "updateAt": "29-04-2023 09:00:00"
+    },
+    {
+      "id": "3",
+      "idCompany": 1,
+      "name": "Chuyên viên Phân tích dữ liệu",
+      "tags": [
+        "Python",
+        "SQL",
+        "R"
+      ],
+      "salary": "18",
+      "description": "Phân tích và xử lý dữ liệu để cung cấp thông tin cho các quyết định kinh doanh.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "Thành phố Hồ Chí Minh"
+      ],
+      "createAt": "30-04-2023 09:00:00",
+      "updateAt": "31-0 9-2024 11:41:05"
+    },
+    {
+      "id": "4",
+      "idCompany": 1,
+      "name": "Quản lý dự án",
+      "tags": [
+        "Quản lý",
+        "Lãnh đạo"
+      ],
+      "salary": "25",
+      "description": "Lập kế hoạch và quản lý tiến độ dự án để đảm bảo hoàn thành đúng hạn.",
+      "status": true,
+      "city": [
+        "Đà Nẵng",
+        "Nha Trang"
+      ],
+      "createAt": "28-04-2023 14:00:00",
+      "updateAt": "29-04-2023 08:30:00"
+    },
+    {
+      "id": "5",
+      "idCompany": 2,
+      "name": "Nhà thiết kế UI/UX",
+      "tags": [
+        "Design",
+        "UX",
+        "UI"
+      ],
+      "salary": "20",
+      "description": "Thiết kế giao diện và trải nghiệm người dùng cho các sản phẩm kỹ thuật số.",
+      "status": true,
+      "city": [
+        "Thành phố Hồ Chí Minh",
+        "Hà Nội"
+      ],
+      "createAt": "27-04-2023 15:00:00",
+      "updateAt": "29-04-2023 11:00:00"
+    },
+    {
+      "id": "6",
+      "idCompany": 2,
+      "name": "Kỹ sư DevOps",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "Docker"
+      ],
+      "salary": "22",
+      "description": "Quản lý và tối ưu hóa quy trình phát triển phần mềm và vận hành hệ thống.",
+      "status": false,
+      "city": [
+        "Hà Nội",
+        "Đà Nẵng"
+      ],
+      "createAt": "30-04-2023 10:00:00",
+      "updateAt": "30-04-2023 13:00:00"
+    },
+    {
+      "id": "cccc",
+      "name": "ReactJS Intern",
+      "tags": [
+        "JavaScript",
+        "HTML"
+      ],
+      "salary": 12,
+      "city": [
+        "Đà Nẵng"
+      ],
+      "status": false,
+      "createAt": "31-09-2024 15:15:10",
+      "description": "Cần có kiến thức cơ bản các ngôn ngữ",
+      "updateAt": "31-09-2024 15:17:29"
+    },
+    {
+      "id": "dace",
+      "name": "Tester intern",
+      "tags": [
+        "SQL",
+        "JavaScript"
+      ],
+      "salary": 13,
+      "city": [
+        "Đà Nẵng",
+        "Thành phố Hồ Chí Minh"
+      ],
+      "description": "Cần tính cẩn thận ",
+      "status": false,
+      "createAt": "31-09-2024 15:21:03",
+      "updateAt": "31-09-2024 15:31:46"
+    }
+  ],
+  "cv": [
+    {
+      "id": "1",
+      "idCompany": 1,
+      "idJob": 1,
+      "name": "Nguyễn Văn A",
+      "phone": "0123456789",
+      "email": "nguyenvana@example.com",
+      "description": "Tôi là một lập trình viên với kinh nghiệm về React và Node.js...",
+      "linkProject": "https://github.com/nguyenvana/project1",
+      "city": "Hà Nội",
+      "statusRead": true,
+      "createAt": "29-04-2023 21:22:17",
+      "status": true
+    },
+    {
+      "id": "2",
+      "idCompany": 1,
+      "idJob": 1,
+      "name": "Phạm Thị B",
+      "phone": "0987654321",
+      "email": "phamthib@example.com",
+      "description": "Tôi yêu thích lập trình và có kiến thức về JavaScript, HTML, CSS...",
+      "linkProject": "https://github.com/phamthib/project2",
+      "city": "Đà Nẵng",
+      "statusRead": true,
+      "createAt": "30-04-2023 10:15:32"
+    },
+    {
+      "id": "3",
+      "idCompany": 1,
+      "idJob": 2,
+      "name": "Lê Văn C",
+      "phone": "0345678910",
+      "email": "levanc@example.com",
+      "description": "Tôi có kinh nghiệm làm việc với các dự án thương mại điện tử...",
+      "linkProject": "https://github.com/levanc/project3",
+      "city": "Hồ Chí Minh",
+      "statusRead": true,
+      "createAt": "01-05-2023 08:45:00"
+    }
+  ]
+}

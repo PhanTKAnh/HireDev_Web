@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+
+}
+.header__logo{
+   font-size: 30px;
+   padding: 20px 30px;
+   font-weight: 700;
+}
+.header__logo--collapse{
+    width: 80px;
+}
+.header__nav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.header__nav-right{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.header__collapse{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.content{
+    padding: 30px;
+}
+.sider{
+    background: #fff;
+
+}
